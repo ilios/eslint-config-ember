@@ -27,6 +27,6 @@
     "eslint-plugin-ember": "^6.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.3"
+    "eslint": "^6.0.0"
   }
 }
