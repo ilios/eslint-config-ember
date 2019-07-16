@@ -24,7 +24,8 @@
   ],
   "dependencies": {
     "@ilios/eslint-config": "^2.0.1",
-    "eslint-plugin-ember": "^6.2.0"
+    "eslint-plugin-ember": "^6.2.0",
+    "eslint-plugin-node": "^9.1.0"
   },
   "devDependencies": {
     "eslint": "^6.0.1"
