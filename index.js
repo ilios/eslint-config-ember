@@ -5,6 +5,11 @@ module.exports = {
   plugins: [
     'ember'
   ],
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2018
+  },
   extends: [
     '@ilios/eslint-config',
     'plugin:ember/recommended'
@@ -37,8 +42,7 @@ module.exports = {
         'lib/*/index.js'
       ],
       parserOptions: {
-        sourceType: 'script',
-        ecmaVersion: 2015
+        sourceType: 'script'
       },
       env: {
         browser: false,
